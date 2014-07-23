@@ -21,6 +21,7 @@
 		96A64E71197FF236003E60A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A64E53197FF236003E60A2 /* UIKit.framework */; };
 		96A64E79197FF236003E60A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A64E77197FF236003E60A2 /* InfoPlist.strings */; };
 		96A64E7B197FF236003E60A2 /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A64E7A197FF236003E60A2 /* AnimationTests.m */; };
+		96A64E86197FFAA8003E60A2 /* DetailAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A64E85197FFAA8003E60A2 /* DetailAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		96A64E76197FF236003E60A2 /* AnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTests-Info.plist"; sourceTree = "<group>"; };
 		96A64E78197FF236003E60A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96A64E7A197FF236003E60A2 /* AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTests.m; sourceTree = "<group>"; };
+		96A64E84197FFAA8003E60A2 /* DetailAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAnimationViewController.h; sourceTree = "<group>"; };
+		96A64E85197FFAA8003E60A2 /* DetailAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		96A64E43197FF236003E60A2 = {
 			isa = PBXGroup;
 			children = (
+				96A64E84197FFAA8003E60A2 /* DetailAnimationViewController.h */,
+				96A64E85197FFAA8003E60A2 /* DetailAnimationViewController.m */,
 				96A64E55197FF236003E60A2 /* Animation */,
 				96A64E74197FF236003E60A2 /* AnimationTests */,
 				96A64E4E197FF236003E60A2 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A64E86197FFAA8003E60A2 /* DetailAnimationViewController.m in Sources */,
 				96A64E60197FF236003E60A2 /* CustomAnimationAppDelegate.m in Sources */,
 				96A64E66197FF236003E60A2 /* CustomAnimationViewController.m in Sources */,
 				96A64E5C197FF236003E60A2 /* main.m in Sources */,

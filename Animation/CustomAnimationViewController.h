@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomAnimationViewController : UIViewController
+@interface CustomAnimationViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+{
+    NSMutableArray *_tableSourceArray;
+}
+
+@property (strong, nonatomic) IBOutlet UITableView *customTableView;
 
 @end
