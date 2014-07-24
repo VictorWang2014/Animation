@@ -21,7 +21,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    _tableSourceArray = [@[@"animation1", @"animation2", @"animation3", @"animation4", @"animation5", @"animation6", @"animation7", @"animation8"] mutableCopy];
+    _tableSourceArray = [@[@"CABasicAnimation scale", @"CABasicAnimation path", @"CAKeyframeAnimations", @"CAKeyframeAnimationPathProperty", @"AnimationAfterAnotherAnimation", @"animation6", @"animation7", @"animation8"] mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning

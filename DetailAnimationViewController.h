@@ -10,7 +10,11 @@
 
 @interface DetailAnimationViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *animationButton1;
+@property (strong, nonatomic) IBOutlet UIButton *animationButton2;
+@property (strong, nonatomic) IBOutlet UIButton *animationButton3;
 @property (nonatomic, strong) IBOutlet UIImageView *animationImageView;
 @property NSInteger index;
 
+- (IBAction)animationButtonClick:(UIButton *)sender;
 @end
